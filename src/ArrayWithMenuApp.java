@@ -22,6 +22,8 @@ public class ArrayWithMenuApp {
             choice = scanner.nextInt(); // error handling -> allow being a number only*/
             choice = getNumber(scanner, "Please enter you choice:");
 
+            //  can be repolaced with enchaced switch -> lambda expression
+
             switch (choice) {
                 case 1:
                     System.out.println("Array elements:");
