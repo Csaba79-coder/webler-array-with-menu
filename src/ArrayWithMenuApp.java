@@ -19,7 +19,7 @@ public class ArrayWithMenuApp {
         do {
             displayMenu();
             /*System.out.println("Please enter you choice:");
-            choice = scanner.nextInt(); // TODO error handling -> allow being a number only*/
+            choice = scanner.nextInt(); // error handling -> allow being a number only*/
             choice = getNumber(scanner, "Please enter you choice:");
 
             switch (choice) {
@@ -120,7 +120,7 @@ public class ArrayWithMenuApp {
         return false;
     }
 
-    // TODO error handling -> allow being a number only (can be solved with regex pattern as well / regex pattern matching)
+    // error handling -> allow being a number only (can be solved with regex pattern as well / regex pattern matching)
     private static int getNumber(Scanner scanner) {
         int number;
 
